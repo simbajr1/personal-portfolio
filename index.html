@@ -6,6 +6,7 @@
 <title>Japheth Onyango | Software Engineer</title>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
 <style>
   :root {
     --navy: #050d1f;
@@ -94,15 +95,16 @@
   .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
   .mobile-menu {
-    display: none; position: fixed; top: 68px; inset-x: 0; bottom: 0;
+    display: none; position: fixed; top: 0; inset-x: 0; bottom: 0;
     background: rgba(5,13,31,0.98); backdrop-filter: blur(20px);
     flex-direction: column; align-items: center; justify-content: center;
-    gap: 2.5rem; z-index: 998;
+    gap: .5rem; z-index: 998;
   }
   .mobile-menu.open { display: flex; }
   .mobile-menu a {
-    color: var(--white-dim); font-size: 1.4rem; font-family: 'Syne', sans-serif;
-    font-weight: 700; text-decoration: none; transition: color .2s;
+    color: var(--white-dim); font-size: 1.2rem; font-family: 'Syne', sans-serif;
+    font-weight: 500; text-decoration: none; transition: color .3s;
+    margin: 5px 30px;
   }
   .mobile-menu a:hover { color: var(--blue-bright); }
 
@@ -607,8 +609,9 @@
     </p>
     <div class="hero-ctas">
       <a href="#projects" class="btn btn-primary"><i class="fas fa-code"></i> View Projects</a>
-      <a href="mailto:ojaphe1999@gmail.com" class="btn btn-outline"><i class="fas fa-download"></i> Download CV</a>
-      <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Contact Me</a>
+      <!-- <a href="mailto:ojaphe1999@gmail.com" class="btn btn-outline"><i class="fas fa-download"></i> Download CV</a> -->
+      <a href="https://www.linkedin.com/in/japheth-onyango-b24551342/" target="_blank" class="btn btn-outline"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+      <!-- <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Contact Me</a> -->
     </div>
   </div>
 </section>
@@ -654,7 +657,7 @@
       <p>From configuring enterprise Cisco networks and Fortinet firewalls to crafting full-stack web applications and embedded reporting systems — I bring a versatile, end-to-end technical perspective to every project.</p>
       <div style="margin-top:1.5rem;display:flex;gap:.8rem;flex-wrap:wrap;">
         <a href="mailto:ojaphe1999@gmail.com" class="btn btn-primary"><i class="fas fa-envelope"></i> Get In Touch</a>
-        <a href="https://www.linkedin.com/in/japheth-onyango" target="_blank" class="btn btn-outline"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+        <!-- <a href="https://www.linkedin.com/in/japheth-onyango-b24551342/" target="_blank" class="btn btn-outline"><i class="fab fa-linkedin-in"></i> LinkedIn</a> -->
       </div>
     </div>
   </div>
@@ -810,9 +813,9 @@
         <span class="pc-thumb-num">03</span>
       </div>
       <div class="pc-body">
-        <div class="pc-tag">Business · Hub</div>
-        <div class="pc-title">Kisumu ICC Hub</div>
-        <p class="pc-desc">A digital hub platform for the Kisumu International Conference Centre showcasing events and services.</p>
+        <div class="pc-tag">Church · App</div>
+        <div class="pc-title">Kisumu ICC</div>
+        <p class="pc-desc">A digital hub platform for the Kisumu International Community Church showcasing events and services.</p>
         <a href="https://kisumu-icc-hub.lovable.app/" target="_blank" class="pc-link">
           Live Preview <i class="fas fa-arrow-up-right-from-square"></i>
         </a>
@@ -850,9 +853,6 @@
     <div>
       <div class="edu-degree">Bachelor of Science in Computer Science</div>
       <div class="edu-school">Kisii University</div>
-      <div style="margin-top:.5rem;">
-        <span class="edu-honor">Second Class Upper Division</span>
-      </div>
     </div>
   </div>
 </section>
@@ -892,14 +892,14 @@
         <div>
           <div class="ci-label">LinkedIn</div>
           <div class="ci-value">
-            <a href="https://www.linkedin.com/in/japheth-onyango" target="_blank">View Profile →</a>
+            <a href="https://www.linkedin.com/in/japheth-onyango-b24551342/" target="_blank">View Profile →</a>
           </div>
         </div>
       </div>
     </div>
 
     <div class="contact-form reveal" style="transition-delay:.15s">
-      <div class="form-group">
+      <!-- <div class="form-group">
         <label>Your Name</label>
         <input type="text" id="cName" placeholder="John Doe"/>
       </div>
@@ -914,13 +914,13 @@
       <div class="form-group">
         <label>Message</label>
         <textarea id="cMessage" placeholder="Tell me about your project or inquiry..."></textarea>
-      </div>
-      <button class="btn btn-primary" style="width:100%;justify-content:center;" onclick="handleForm()">
-        <i class="fas fa-paper-plane"></i> Send Message
-      </button>
-      <div class="form-success" id="formSuccess">
+      </div> -->
+      <a href="https://wa.me/254748037564" target="_blank" button class="btn btn-primary" style="width:100%;justify-content:center;">
+        <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+      </a>
+      <!-- <div class="form-success" id="formSuccess">
         <i class="fas fa-check-circle"></i> Thanks! Your message has been sent.
-      </div>
+      </div> -->
     </div>
   </div>
 </section>
@@ -931,8 +931,8 @@
   <div class="footer-socials">
     <a href="mailto:ojaphe1999@gmail.com" class="social-btn" title="Email"><i class="fas fa-envelope"></i></a>
     <a href="tel:+254748037564" class="social-btn" title="Phone"><i class="fas fa-phone"></i></a>
-    <a href="https://www.linkedin.com/in/japheth-onyango" target="_blank" class="social-btn" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-    <a href="https://github.com/japheth-onyango" target="_blank" class="social-btn" title="GitHub"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/japheth-onyango-b24551342/" target="_blank" class="social-btn" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://github.com/simbajr1" target="_blank" class="social-btn" title="GitHub"><i class="fab fa-github"></i></a>
   </div>
 </footer>
 
